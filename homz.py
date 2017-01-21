@@ -28,7 +28,7 @@ def generate_data(words):
 					word_dict[w1] = sorted_matching_words
 	return word_dict
 
-def find_homz(data, word, count=10):
+def search(data, word, count=10):
 	all_homz = data[word]
 	output = []
 	if len(all_homz) > 0:
